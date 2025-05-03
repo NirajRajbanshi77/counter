@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.container {
+    border:1px solid black;
+    padding: 30px;
+}
+
+.displayValue {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.button-container {
+    display: flex;
+     justify-content: space-evenly;
+}
+
+.button-container button {
+    font-size: 2rem;
+    padding: 6px 14px;
+    background-color:#0ff ;
+    border-radius: 5px;
+}
+
+.para {
+    display: flex;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    align-items: center;
+}
+
+.changeValue {
+    padding: 5px;
+    font-size: 1.3rem;
+    width: 100px;
+    
+}
+
+.container button {
+    background-color: #0ff;
+    padding: 10px 15px;
+    border-radius: 8px;
+
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
